@@ -1,0 +1,48 @@
+// src/styles/base.scss
+@import 'variables.scss';
+@import 'mixins.scss';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: $font-size-base;
+}
+
+body {
+    font-family: $font-family-main;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $color-text-dark;
+    background-color: $color-background;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Szerokość kontenera
+.container {
+    width: 100%;
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include for-tablet-portrait-up {
+        max-width: 720px;
+    }
+
+    @include for-tablet-landscape-up {
+        max-width: 960px;
+    }
+
+    @include for-desktop-up {
+        max-width: 1140px;
+    }
+}

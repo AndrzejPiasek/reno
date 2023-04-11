@@ -1,0 +1,73 @@
+//  src/styles.variables.scss
+// Kategorie kolorów
+
+$color-primary: #3a3a3a;
+//Kolor tekstu nagłówków (h1, h2, h3, itp.) 
+//Tło głównych przycisków akcji (np. "Dodaj do koszyka", "Zarejestruj się") 
+//Kolor linków po najechaniu kursorem 
+
+$color-secondary: #ffcc00;
+//Tło drugorzędnych przycisków (np. "Więcej informacji", "Przeczytaj więcej") 
+//Kolor linków 
+//Kolor ikon i elementów graficznych, które mają odwzorowywać markę 
+
+$color-accent: #ff6600;
+//Kolor tekstu przycisków,ikon lub elementów graficznych,które mają wyróżniać się na stronie 
+//Kolor tła wybranych elementów,które mają przyciągać uwagę użytkownika 
+
+$color-background: #ffffff;
+//Tło całej strony
+//Tło sekcji z zawartością 
+//Tło pól formularza 
+
+$color-text-light: #ffffff;
+//Kolor tekstu na ciemniejszym tle, takim jak sekcja nagłówka
+//Kolor tekstu na tle przycisków lub elementów z ciemniejszym kolorem 
+
+$color-text-dark: #333333;
+//Kolor tekstu na jasnym tle, takim jak sekcja treści
+//Kolor tekstu na tle przycisków lub elementów z jaśniejszym kolorem 
+
+$color-border: #cccccc;
+//Kolor obramowań pól formularza
+//Kolor linii oddzielających sekcje 
+
+
+// Kolory systemowe
+$color-error: #ff3b30;
+$color-warning: #ffcc00;
+$color-success: #4cd964;
+$color-info: #5ac8fa;
+
+
+// Typografia
+$font-family-main: 'Roboto',
+sans-serif;
+$font-family-alt: 'Open Sans',
+sans-serif;
+$font-size-base: 16px;
+$font-size-heading-lg: 32px;
+$font-size-heading-md: 24px;
+$font-size-heading-sm: 18px;
+$font-size-text-lg: 16px;
+$font-size-text-sm: 14px;
+
+// Odstępy
+$spacing-base: 16px;
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 24px;
+$spacing-lg: 32px;
+$spacing-xl: 64px;
+
+// Zaokrąglenia
+$border-radius-xs: 2px;
+$border-radius-base: 4px;
+$border-radius-lg: 8px;
+// 
+//
+// Breakpoints
+$breakpoint-phone: 599px;
+$breakpoint-tablet-portrait: 600px;
+$breakpoint-tablet-landscape: 900px;
+$breakpoint-desktop: 1200px;

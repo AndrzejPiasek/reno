@@ -1,0 +1,218 @@
+// webpack.config.js
+ const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+  mode: 'development',
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+  },
+  devServer: {
+    contentBase: './dist',
+    port: 8080,
+  },
+  optimization: {
+    minimizer: [
+      new TerserPlugin(),
+    ],
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        },
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      }
+    ],
+  },
+};
+
+//package.json
+{
+  "name": "reno-react",
+  "version": "1.0.0",
+  "description": "Opis Twojego projektu",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Brak testów\""
+  },
+  "author": "Twoje imię i nazwisko",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
+
+
+//index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
+
+
+//index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.scss';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+//Folder PATH listing for volume maly2
+Volume serial number is 2EA5-87F4
+J:.
+|   treeStatic.txt
+|   
++---css
+|       main.1bfefff0.css
+|       main.1bfefff0.css.map
+|       
+\---js
+        651.a67c906d.chunk.js
+        651.a67c906d.chunk.js.map
+        main.8ea536fb.js
+        main.8ea536fb.js.LICENSE.txt
+        main.8ea536fb.js.map
+        
+        //
+        Folder PATH listing for volume maly2
+Volume serial number is 2EA5-87F4
+J:.
+|   App.css
+|   App.js
+|   App.test.js
+|   index.js
+|   index.scss
+|   logo.svg
+|   reportWebVitals.js
+|   setupTests.js
+|   tree.txt
+|   treeSrc.txt
+|   
++---components
+|       Contact.js
+|       Footer.js
+|       Gallery.js
+|       Header.js
+|       Hero.js
+|       Services.js
+|       Testimonials.js
+|       
++---img
+|       Andy4321_conservation_of_an_oil_painting_by_peter_rubens_0653e26a-2dc0-4155-be5c-c74162482a9e.png
+|       
+\---styles
+        Header.scss
+        variables.scss
+        
+
+I spróbuj mi odpowiedzieć na pytanie dlaczego na index.html nic się nie pojawia, mimo że wyświetla się poprawnie?
+//////////////////////////////////////////////
+
+<nav>
+        <ul>
+          <li><a href="#malarstwo">Malarstwo</a></li>
+          <li><a href="#porcelana">Porcelana</a></li>
+          <li><a href="#drewno">Drewno</a></li>
+          <li><a href="#papier">Papier</a></li>
+          <li><a href="#skora">Skóra</a></li>
+          <li><a href="#szklo">Szkło</a></li>
+          <li><a href="#gips">Gips</a></li>
+          <li><a href="#wosk">Wosk</a></li>
+          <li><a href="#plastik">Plastik</a></li>
+        </ul>
+</nav>
+wybierz do tego

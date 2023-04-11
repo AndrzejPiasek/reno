@@ -1,0 +1,86 @@
+cel:
+"Tworzymy treści na witrynę internetową pracowni konserwacji, renowacji przedmiotów zabytkowych. Konserwowane przez przedmioty pochodzą z zakresu opisanego w menu witryny:
+Malarstwo
+Porcelana
+Drewno
+Papier
+Skóra
+Szkło
+Gips
+Wosk
+Plastik"
+
+przeznaczenie: "
+Klientem pracowni jest osoba raczej majętna, a na pewno z dużym i bardzo dużym związkiem emocjonalnym z przedmiotem oddawanym do renowacji. Jest to dla tej osoby przedmiot będący rodzinną pamiątką bądz kolecjonerem, który kupił uszkodzony przedmiot okazyjnie, z przeznaczeniem do renowacji. Ostani typ może ten przedmiot sprzedać, wymienić lub pozostawić w swojej kolekcji. Rozróżnienie tych typów klientów jest o tyle istotne, że pierwszy typ (rodzinna pamiatka) na ogół nie ma wiedzy fachowej więc przekaz musi uwzględniać ten aspekt. Kolekcjoner przez realizację swojego hobby ma pewną wiedzę, często dużą w temacie renowacji dzieł sztuki."
+
+treść przekazu:
+"
+Powinna stanowić wezwanie do podjęcia działań w celu przywrócenia przedmiotowi jego walorów estetycznych  i użytkowych.
+Powinna uświadamiać  zawiłości i często nieuświadamiane zagrożenia mogące pojawić się w trakcie konserwacji przedmiotu danego typu. Nawoływać do przekazania przedmiotu do pracowni. W żadnym wypadku przekaz nie powinien być instrukcją jak klient może zrobić to sam.
+"
+Pytanie do chatu:
+"Proszę o przygotowanie tekstu dla sekcji 'Malarstwo' na stronie internetowej pracowni konserwacji i renowacji zabytkowych przedmiotów. Tekst powinien być sformatowany do React i HTML, zawierając odpowiednie klasy, takie jak 'service', 'service__title', 'service__subtitle', 'service__text' i 'service__list'. Proszę uwzględnić śródtytuły oraz listy z różnymi rodzajami dzieł malarskich i typowymi uszkodzeniami związanymi z malarstwem. Tekst powinien opisywać, jak doświadczeni konserwatorzy pracowni mogą pomóc w przywróceniu pierwotnego piękna i wartości dziełom malarskim. Proszę podzielić odpowiedź na części, jeśli zajdzie taka potrzeba, aby uniknąć problemów z wyświetlaniem.
+W przypadku wyświetlania kodu poszę poprzedzić treść zakomentowaną nazwą pliku"
+
+
+
+
+"Proszę o przygotowanie tekstu dla sekcji 'Malarstwo' na stronie internetowej pracowni konserwacji i renowacji zabytkowych przedmiotów. Tekst powinien być sformatowany do React i HTML, zawierając odpowiednie klasy, takie jak 'service', 'service__title', 'service__subtitle', 'service__text' i 'service__list'. Proszę uwzględnić śródtytuły oraz listy w razie potrzeby. Tekst powinien opisywać, jak doświadczeny konserwator pracowni przeprowadza renowację jednego obrazu. Opis powinien zawierać kolejność prac i ich opis wraz z wskazniem potrzebnych materiałów. 
+ Opis ma na celu przybliżenie klientowi złożoność wykonywanej pracy. Proszę używać w miarę prostej wypowiedzi. Proszę podzielić odpowiedź na części, jeśli zajdzie taka potrzeba, aby uniknąć problemów z wyświetlaniem.
+W przypadku wyświetlania kodu proszę poprzedzić treść zakomentowaną nazwą pliku"
+
+
+
+
+Proszę o przygotowanie funkcjonalności i mechanizmu strony internetowej pracowni konserwacji i renowacji zabytkowych przedmiotów. Tekst powinien być sformatowany do React i HTML. Praca nad projektem jest już zaawansowana.
+Za chwilę prześlę ci treść kilku dokumentów. Do czasu gdy  nie napiszę "Teraz oczekuję odpowiedzi" to nie opdowiadaj, gdy wypowiem tę feazę wracamy do normalego działnie pytanie-odpowiedz.
+Chcę na początku, przesłać ci, treść plików nad którymi będziemy pracować. Każdą odpowiedz numeruj np. "//ODPOWIEDZ NR 1". Każdy kod powinie zostać poprzedzony, w formie komentarza, nazwą pliku do którego ma zostać on dodany lub który ma zostać zmodyfikowany. 
+Każdą odpowiedz która może zostać zablokować, zatrzymać lub napotkać trudności w  wyświetlaniu podziel na części i wysyłaj w oddzielnej odpowiedzi, jest to szczególnie istotne w przypadku kodu, skryptów. Gdybyś uznał, że proponowana treść powinna znaleźć w pliku, który jest w drzewie katalogu, a jeszcze go nie wysłałem, poproś mnie o jego wysłanie, by nie towrzyć nadmiarowego, niezrozumiałego czy nielogicznego kodu.
+
+Teraz oczekuję odpowiedzi. 
+Prosiłbym na wstępie o ogólne odniesienie się do tematu.
+Proszę o przygotowanie tekstu dla sekcji 'Papier'. Tekst powinien być sformatowany do React i HTML, zawierając odpowiednie klasy, takie jak 'service', 'service__title', 'service__subtitle', 'service__text' i 'service__list'. Proszę uwzględnić śródtytuły oraz listy w razie potrzeby. Tekst powinien opisywać, jak doświadczeny konserwator pracowni przeprowadza renowację jednej księgi. Opis powinien zawierać kolejność prac i ich opis wraz z wskazniem potrzebnych materiałów. Opis ma na celu przybliżenie klientowi złożoność wykonywanej pracy. Tekst ma znależć się w pliku PapierSection.js. Pewną inspiracją może stanowić przykład zawarty w pliku MalarstwoSection.js.
+
+Proszę o przygotowanie tekstu dla sekcji 'Porcelana'. Tekst powinien być sformatowany do React i HTML, zawierając odpowiednie klasy, takie jak 'service', 'service__title', 'service__subtitle', 'service__text' i 'service__list'. Proszę uwzględnić śródtytuły oraz listy w razie potrzeby. Proszę w formie listy dodać najczęściej oddawane do renowacji i klejenia przedmioty z porcelany. W drugiej liście zawrzeć najczęściej powstające uszkodzenia w wyrobach z porcelany. praca będzie analogiczna do materiały istniejącego już w sekcji MalarsrwoSection.js
+
+
+Sekcja "Wosk". Poproszę  zestaw 12 pytań i odpowiedzi  w formacie json. Pytania powinny być stawiane w konteście czyli z punktu widzenia pracowni, anie być poradnikiem "zrób to sam". 
+Proszę używać przystępnego języka. Odpowiedzi udzielaj z pozycji "ja" lub "my", nie pytaj o koszty i nie pytaj o informację zawarte już w utworzonej już części sekcji.
+ Nie powtarzaj w odpowiedzi całej treści pytania tylko ogranicz się do merytorycznej odpowiedzi. 
+Pytaj o referencje, przykłady wykonanych już prac.
+Pytaj jak zabezpieczyć przedmiot przed dalszą degradacją.
+Zadawaj pytania możliwie szczegółowe.
+Unikaj pytań na które padła już odpowiedz lub podobna. 
+Nie powtarzaj w odpowiedzi całości treści zawartej w pytaniu. Odpowiadaj rzeczowo i zrozumiale.
+
+
+kontynnuj wyświetlanie od miejsca gdzie zostało ono przerwane, nie drukuj już wyświetlonych treści w odpowiedzi tylko zacznij od miejsca przerwania
+
+
+
+
+
+
+cel:
+"Tworzymy treści na witrynę internetową pracowni konserwacji, renowacji przedmiotów zabytkowych. Konserwowane przez przedmioty pochodzą z zakresu opisanego w menu witryny:
+Malarstwo
+Porcelana
+Drewno
+Papier
+Skóra
+Szkło
+Gips
+Wosk
+Plastik"
+
+przeznaczenie: "
+Klientem pracowni jest osoba raczej majętna, a na pewno z dużym i bardzo dużym związkiem emocjonalnym z przedmiotem oddawanym do renowacji. Jest to dla tej osoby przedmiot będący rodzinną pamiątką bądz kolecjonerem, który kupił uszkodzony przedmiot okazyjnie, z przeznaczeniem do renowacji. Ostani typ może ten przedmiot sprzedać, wymienić lub pozostawić w swojej kolekcji. Rozróżnienie tych typów klientów jest o tyle istotne, że pierwszy typ (rodzinna pamiatka) na ogół nie ma wiedzy fachowej więc przekaz musi uwzględniać ten aspekt. Kolekcjoner przez realizację swojego hobby ma pewną wiedzę, często dużą w temacie renowacji dzieł sztuki."
+
+treść przekazu:
+"
+Powinna stanowić wezwanie do podjęcia działań w celu przywrócenia przedmiotowi jego walorów estetycznych  i użytkowych.
+Powinna uświadamiać  zawiłości i często nieuświadamiane zagrożenia mogące pojawić się w trakcie konserwacji przedmiotu danego typu. Nawoływać do przekazania przedmiotu do pracowni. W żadnym wypadku przekaz nie powinien być instrukcją jak klient może zrobić to sam.
+"
+Pytanie do chatu:
+"Proszę o przygotowanie tekstu dla sekcji 'Malarstwo' na stronie internetowej pracowni konserwacji i renowacji zabytkowych przedmiotów. Tekst powinien być sformatowany do React i HTML, zawierając odpowiednie klasy, takie jak 'service', 'service__title', 'service__subtitle', 'service__text' i 'service__list'. Proszę uwzględnić śródtytuły oraz listy z różnymi rodzajami dzieł malarskich i typowymi uszkodzeniami związanymi z malarstwem. Tekst powinien opisywać, jak doświadczeni konserwatorzy pracowni mogą pomóc w przywróceniu pierwotnego piękna i wartości dziełom malarskim. Proszę podzielić odpowiedź na części, jeśli zajdzie taka potrzeba, aby uniknąć problemów z wyświetlaniem.
+W przypadku wyświetlania kodu poszę poprzedzić treść zakomentowaną nazwą pliku"

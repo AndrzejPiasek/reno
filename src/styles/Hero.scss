@@ -1,0 +1,33 @@
+//  src/syles/Hero.scss
+@import 'variables.scss';
+
+.hero {
+    position: relative;
+    text-align: center;
+
+    &__image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; // Umieść obrazek pod treścią
+    }
+
+    &__content {
+        padding: $spacing-lg;
+
+        // Inne style dla .hero__content
+    }
+
+    &__heading {
+        font-size: $font-size-heading-lg;
+        margin-bottom: $spacing-lg;
+    }
+
+    &__text {
+        font-size: $font-size-text-lg;
+        color: $color-text-light;
+    }
+}

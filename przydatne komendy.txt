@@ -1,0 +1,58 @@
+Przedstawiam zawartość katalogu "src" witryny wykonanej w react:
+https://github.com/AndrzejPiasek/reno/blob/main/App.css
+https://github.com/AndrzejPiasek/reno/blob/main/App.js
+https://github.com/AndrzejPiasek/reno/blob/main/index.js
+https://github.com/AndrzejPiasek/reno/blob/main/index.scss
+https://github.com/AndrzejPiasek/reno/blob/main/autocommit.js
+https://github.com/AndrzejPiasek/reno/blob/main/.eslintrc.json
+https://github.com/AndrzejPiasek/reno/blob/main/.jshintrc
+https://github.com/AndrzejPiasek/reno/blob/main/.gitignore
+https://github.com/AndrzejPiasek/reno/blob/main/webpack.config.js
+//////components///////////
+https://github.com/AndrzejPiasek/reno/blob/main/components/App.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Contact.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Footer.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Gallery.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Header.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Hero.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/OpenAIChat.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Services.js
+https://github.com/AndrzejPiasek/reno/blob/main/components/Testimonials.js
+////////////////img/////////////
+https://github.com/AndrzejPiasek/reno/blob/main/img/Andy4321_conservation_of_an_oil_painting_by_peter_rubens_0653e26a-2dc0-4155-be5c-c74162482a9e.png
+////////////////styles////////////
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Header.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/variables.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/App.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Contact.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Footer.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Gallery.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Hero.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/OpenAIChat.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Services.scss
+https://github.com/AndrzejPiasek/reno/blob/main/styles/Testimonials.scss
+////////////////////section//////////////
+https://github.com/AndrzejPiasek/reno/blob/main/section/DrewnoSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/GipsSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/MalarstwoSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/PapierSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/PlastikSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/PorcelanaSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/SkóraSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/SzkloSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/WoskSection.js
+https://github.com/AndrzejPiasek/reno/blob/main/section/JsonSection.js
+
+
+
+Zadanie:
+Na wstępir przesłałem ci linki do większości pików, które mogą zostać wykorzystane w projekcie. Bęe zadawał pytania dotyczące feagmentu kodu, ale chciałbym abyś widział, że część prac  została wykonana a pewne zmienne nadane.
+Potrzebuję opisu (treści) do komponentu https://github.com/AndrzejPiasek/reno/blob/main/section/DrewnoSection.js.
+Adekwatne treści znajdują się w komponentach https://github.com/AndrzejPiasek/reno/blob/main/section/MalarstwoSection.js czy https://github.com/AndrzejPiasek/reno/blob/main/section/PapierSection.js.
+Wszystkie treści umieść w kodzie komponenu i strony. wyświetl mi zmodyfikowany kod komponentu  https://github.com/AndrzejPiasek/reno/blob/main/section/DrewnoSection.js.
+
+
+
+Zadanie:
+Poproszę w konteście tej rozmowy o 12 pytań i odpowiedzi w formacie json dotyczących stricte tematu tego zapytania. Proszę unikać pytań oczywistych i ogólnych. Tak żeby internauta mógł dowidzieć się w spsón w miarę szczegółowy na jaką pomoc może liczyć od pracowni. Nie mniej nie na to być poradnik jak może to zrobić sam.
+Poproszę o pytania i odpowidzi dotyczące sekcji Plastik.

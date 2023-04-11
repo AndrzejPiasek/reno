@@ -1,0 +1,6 @@
+{
+  "tasks.autoRestart": {
+    "Auto-commit co 5 minut": "300000"
+  }
+}
+

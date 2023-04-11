@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // inne zadania...
+    // usunięte zadanie:
+    // {
+    //   "label": "Auto-commit co 5 minut",
+    //   "type": "shell",
+    //   "command": "git add . ; git commit -m 'Automatyczny commit co 5 minut' || echo 'Brak zmian do zatwierdzenia'",
+    //   "problemMatcher": [],
+    //   "runOptions": {
+    //     "runOn": "folderOpen"
+    //   },
+    //   "presentation": {
+    //     "reveal": "silent",
+    //     "panel": "shared",
+    //     "showReuseMessage": false,
+    //     "clear": true
+    //   }
+    // }
+  ]
+}
