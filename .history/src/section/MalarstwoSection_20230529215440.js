@@ -6,7 +6,7 @@ function MalarstwoSection() {
 
 
   const handleQuestionClick = (index) => {
-    setActiveIndex(activeIndex === index ? -1 : index);//
+    setActiveIndex(activeIndex === index ? -1 : index);
   };
   return (
     <section id="Malarstwo" className="service container">

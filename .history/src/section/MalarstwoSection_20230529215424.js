@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import JsonSection from './JsonSection';// Upewnij się, że importujesz App.scss tutaj
+import JsonSection from './JsonSection';
 
 function MalarstwoSection() {
   const [activeIndex, setActiveIndex] = useState(-1); // -1 oznacza, że żaden element nie jest aktywny
 
 
   const handleQuestionClick = (index) => {
-    setActiveIndex(activeIndex === index ? -1 : index);//
+    setActiveIndex(activeIndex === index ? -1 : index);
   };
   return (
     <section id="Malarstwo" className="service container">

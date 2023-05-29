@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import JsonSection from './JsonSection';// Upewnij się, że importujesz App.scss tutaj
+import JsonSection from './JsonSection';
 
 function MalarstwoSection() {
-  const [activeIndex, setActiveIndex] = useState(-1); // -1 oznacza, że żaden element nie jest aktywny
-
+  const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleQuestionClick = (index) => {
-    setActiveIndex(activeIndex === index ? -1 : index);//
+    setActiveIndex(activeIndex === index ? -1 : index);
   };
   return (
     <section id="Malarstwo" className="service container">
@@ -16,7 +15,7 @@ function MalarstwoSection() {
         Czy Twój obraz potrzebuje renowacji? fachowej ręki? Może jedno nasze "dotknięcie" przywróci mu piękno i blask, doda wartości...
       </p>
       <h4 className="service__subtitle">Jeżeli masz:</h4>
-      <ul className="service__list">
+      <ol className="service__list">
         <li>Obraz olejny</li>
         <li>Akwarelę</li>
         <li>Pastelę</li>
@@ -24,7 +23,7 @@ function MalarstwoSection() {
         <li>Temperę</li>
         <li>Fresk</li>
         <li>Kolaż</li>
-      </ul>
+      </ol>
       <h4 className="service__subtitle">Twój problem to:</h4>
       <ul className="service__list">
         <li>Zabrudzenie i zacieki powierzchni</li>
