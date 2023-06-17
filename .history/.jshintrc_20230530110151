@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "jsx-quotes": ["error", "double"]
+  },
+  {
+  "esversion": 6
+}
+
+}

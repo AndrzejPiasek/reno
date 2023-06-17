@@ -1,0 +1,119 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "jsx-quotes": ["error", "double"]
+  },
+  [{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "E001",
+	"severity": 8,
+	"message": "Bad option: 'parserOptions'. (E001)",
+	"source": "jshint",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "E001",
+	"severity": 8,
+	"message": "Bad option: 'rules'. (E001)",
+	"source": "jshint",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "E015",
+	"severity": 8,
+	"message": "Unclosed regular expression. (E015)",
+	"source": "jshint",
+	"startLineNumber": 14,
+	"startColumn": 48,
+	"endLineNumber": 14,
+	"endColumn": 48
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "E041",
+	"severity": 8,
+	"message": "Unrecoverable syntax error. (23% scanned). (E041)",
+	"source": "jshint",
+	"startLineNumber": 14,
+	"startColumn": 48,
+	"endLineNumber": 14,
+	"endColumn": 48
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W119",
+	"severity": 4,
+	"message": "'import' is only available in ES6 (use 'esversion: 6'). (W119)",
+	"source": "jshint",
+	"startLineNumber": 1,
+	"startColumn": 1,
+	"endLineNumber": 1,
+	"endColumn": 1
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W119",
+	"severity": 4,
+	"message": "'import' is only available in ES6 (use 'esversion: 6'). (W119)",
+	"source": "jshint",
+	"startLineNumber": 2,
+	"startColumn": 1,
+	"endLineNumber": 2,
+	"endColumn": 1
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W104",
+	"severity": 4,
+	"message": "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). (W104)",
+	"source": "jshint",
+	"startLineNumber": 5,
+	"startColumn": 3,
+	"endLineNumber": 5,
+	"endColumn": 3
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W104",
+	"severity": 4,
+	"message": "'destructuring binding' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). (W104)",
+	"source": "jshint",
+	"startLineNumber": 5,
+	"startColumn": 3,
+	"endLineNumber": 5,
+	"endColumn": 3
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W104",
+	"severity": 4,
+	"message": "'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). (W104)",
+	"source": "jshint",
+	"startLineNumber": 8,
+	"startColumn": 3,
+	"endLineNumber": 8,
+	"endColumn": 3
+},{
+	"resource": "/j:/Reno-clone/reno/src/section/MalarstwoSection.js",
+	"owner": "_generated_diagnostic_collection_name_#0",
+	"code": "W119",
+	"severity": 4,
+	"message": "'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). (W119)",
+	"source": "jshint",
+	"startLineNumber": 8,
+	"startColumn": 37,
+	"endLineNumber": 8,
+	"endColumn": 37
+}]
+}
